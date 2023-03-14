@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5f2d0447-a6a1-4738-87cf-57a7bcb97258}">
+		<property name="assetPath">
+			<value>Pipes/Water_Drop_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.7679591836734694</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{05390b02-8d1a-4f09-baef-ce3b37da9bf7}</destination>
+		</relationship>
+	</object>
+</objects>

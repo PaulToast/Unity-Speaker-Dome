@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{5330e2e1-e345-4225-b50c-f6c3813cff97}">
+		<property name="assetPath">
+			<value>Hydraulic Hammer/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{05390b02-8d1a-4f09-baef-ce3b37da9bf7}</destination>
+		</relationship>
+	</object>
+</objects>

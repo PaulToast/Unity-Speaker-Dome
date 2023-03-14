@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{5c714373-86f1-4ac5-8f99-17b09bff333a}">
+		<property name="assetPath">
+			<value>Pipes/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{05390b02-8d1a-4f09-baef-ce3b37da9bf7}</destination>
+		</relationship>
+	</object>
+</objects>

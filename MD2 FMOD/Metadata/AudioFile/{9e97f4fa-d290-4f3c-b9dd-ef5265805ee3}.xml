@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9e97f4fa-d290-4f3c-b9dd-ef5265805ee3}">
+		<property name="assetPath">
+			<value>Pipes/Cave_Atmo_4.1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11.807979166666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{05390b02-8d1a-4f09-baef-ce3b37da9bf7}</destination>
+		</relationship>
+	</object>
+</objects>

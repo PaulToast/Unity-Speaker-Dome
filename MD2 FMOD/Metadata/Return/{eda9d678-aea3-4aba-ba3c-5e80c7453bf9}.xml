@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{eda9d678-aea3-4aba-ba3c-5e80c7453bf9}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
+		<property name="name">
+			<value>Melting Reverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{19208f53-b75f-4c33-9804-486471e8bd7f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{61903be6-a116-4c2e-a9a5-8dacf671e2ec}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{fcf6a937-5a23-4e14-86c6-7749b2d7b5cb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{19208f53-b75f-4c33-9804-486471e8bd7f}">
+		<relationship name="effects">
+			<destination>{02c3a28c-4ec4-48dc-8580-5ffef6e32273}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{61903be6-a116-4c2e-a9a5-8dacf671e2ec}" />
+	<object class="MixerBusFader" id="{02c3a28c-4ec4-48dc-8580-5ffef6e32273}" />
+</objects>

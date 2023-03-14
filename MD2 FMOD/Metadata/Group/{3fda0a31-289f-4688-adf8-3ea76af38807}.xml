@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{3fda0a31-289f-4688-adf8-3ea76af38807}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
+		<property name="name">
+			<value>Garage</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e3a2d3b4-0dc3-491e-a426-7da02baa4931}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{9f24009f-6d69-44ad-bc09-2e20351218a8}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1e321983-6527-4c5b-a985-42179047bfee}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e3a2d3b4-0dc3-491e-a426-7da02baa4931}">
+		<relationship name="effects">
+			<destination>{4f2d72c5-5415-41e8-8054-b9d171400801}</destination>
+			<destination>{0aa88f6d-4aa0-4df9-8525-0d6e8d2d3a19}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{9f24009f-6d69-44ad-bc09-2e20351218a8}">
+		<property name="overridingOutputFormat">
+			<value>6</value>
+		</property>
+		<property name="disabledSpeakers">
+			<value>4</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{4f2d72c5-5415-41e8-8054-b9d171400801}" />
+	<object class="SFXReverbEffect" id="{0aa88f6d-4aa0-4df9-8525-0d6e8d2d3a19}" />
+</objects>

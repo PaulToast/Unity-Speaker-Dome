@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{5e946843-f904-4fd4-9304-4d8f314b9115}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
+		<property name="name">
+			<value>Paul-Cave-Filter</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e4bc88e8-52ee-4684-b0e7-812a978d34d5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8303421d-fb29-4404-a27c-f6b29ab5b43f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1e321983-6527-4c5b-a985-42179047bfee}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e4bc88e8-52ee-4684-b0e7-812a978d34d5}">
+		<relationship name="effects">
+			<destination>{b0dc607a-5e0b-4bad-add0-23c505542ff4}</destination>
+			<destination>{50cc7258-4f8a-4eca-a955-8aaf90acb071}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8303421d-fb29-4404-a27c-f6b29ab5b43f}" />
+	<object class="ThreeEQEffect" id="{b0dc607a-5e0b-4bad-add0-23c505542ff4}" />
+	<object class="MixerBusFader" id="{50cc7258-4f8a-4eca-a955-8aaf90acb071}" />
+</objects>

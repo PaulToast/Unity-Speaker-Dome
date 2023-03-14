@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{eea2e139-002f-46da-b6ae-6513af0709f6}">
+		<property name="name">
+			<value>Paul-Outside</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c951de72-a864-4ea9-ab65-7e816aeaee6b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{da35e2c9-d70f-4fb4-8c7f-846de2369703}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1e321983-6527-4c5b-a985-42179047bfee}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c951de72-a864-4ea9-ab65-7e816aeaee6b}">
+		<relationship name="effects">
+			<destination>{abe26aa3-22b4-4b79-9cea-abef2a3f6de7}</destination>
+			<destination>{58a8bb77-eba9-4039-a6a2-6ee49b710347}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{da35e2c9-d70f-4fb4-8c7f-846de2369703}" />
+	<object class="MixerSend" id="{abe26aa3-22b4-4b79-9cea-abef2a3f6de7}">
+		<property name="inputFormat">
+			<value>6</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{5e946843-f904-4fd4-9304-4d8f314b9115}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{58a8bb77-eba9-4039-a6a2-6ee49b710347}" />
+</objects>

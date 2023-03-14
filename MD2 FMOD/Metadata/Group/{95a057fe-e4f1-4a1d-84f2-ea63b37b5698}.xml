@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{95a057fe-e4f1-4a1d-84f2-ea63b37b5698}">
+		<property name="name">
+			<value>Paul-Cave</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8bbf6dd7-4992-499b-9306-57054f061264}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{5a372a3e-2191-420a-ba4e-4dccde989be6}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1e321983-6527-4c5b-a985-42179047bfee}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8bbf6dd7-4992-499b-9306-57054f061264}">
+		<relationship name="effects">
+			<destination>{9d374fe0-493b-429f-a257-2d9e41d7ac24}</destination>
+			<destination>{b9562ffe-1c26-43c6-851f-bd1c81692c1c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{5a372a3e-2191-420a-ba4e-4dccde989be6}" />
+	<object class="MixerSend" id="{9d374fe0-493b-429f-a257-2d9e41d7ac24}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{99f9803f-0b80-43cd-ae6a-af169ff4f3f4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{b9562ffe-1c26-43c6-851f-bd1c81692c1c}" />
+</objects>

@@ -1,0 +1,102 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Scenes",
+            "id": "73ca6e21-b9e2-4925-ac01-b74c9a7eb84e",
+            "actions": [
+                {
+                    "name": "Switch Scene",
+                    "type": "Button",
+                    "id": "e2c557dc-2179-4e4d-b0e5-4d97cfc36912",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "908b2d45-0053-4176-9cc2-e97e51b99e5c",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Scene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Gameplay",
+            "id": "fe30351e-f772-4c89-b5e5-6b318feef53a",
+            "actions": [
+                {
+                    "name": "Move Horizontal",
+                    "type": "Value",
+                    "id": "9eb9ba95-d9cf-42a5-bf77-92b758dc63c6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move Vertical",
+                    "type": "Value",
+                    "id": "64bca802-813b-44bc-b7dd-15ac999b449a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "6eb95e29-8fe5-4c54-9d16-095a4dc94cd1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6fd12abc-d105-47cd-b885-98e396711593",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7630a1ed-4fa4-484f-a4f4-60846eb6260b",
+                    "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Vertical",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63423083-c5dd-45ac-9cb9-4f632caf5be7",
+                    "path": "<Gamepad>/rightStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
