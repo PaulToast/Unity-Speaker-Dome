@@ -9,7 +9,7 @@ public class FMODoutput : MonoBehaviour
     {
         FMOD.Studio.System studioSystem = FMODUnity.RuntimeManager.StudioSystem;
         FMOD.System coreSystem = FMODUnity.RuntimeManager.CoreSystem;
-       // studioSystem.release();
+        //studioSystem.release();
         //coreSystem.close();
 
         int numdrivers;
