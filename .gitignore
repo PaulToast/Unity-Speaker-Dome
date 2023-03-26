@@ -58,15 +58,9 @@ sysinfo.txt
 # Log-files
 fmod.log
 fmod_editor.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/shadercompiler-UnityShaderCompiler.exe*.log
 
 # FMOD 1.10.x (Legacy)
 /Assets/FMODAssets/*
 /Assets/FMODStudioCache.meta
-UserSettings/Layouts/default-2021.dwlt
-Logs/shadercompiler-UnityShaderCompiler.exe7.log
-Logs/shadercompiler-UnityShaderCompiler.exe6.log
-Logs/shadercompiler-UnityShaderCompiler.exe5.log
-Logs/shadercompiler-UnityShaderCompiler.exe4.log
-Logs/shadercompiler-UnityShaderCompiler.exe3.log
-Logs/shadercompiler-UnityShaderCompiler.exe1.log
-Logs/shadercompiler-AssetImportWorker0.log
