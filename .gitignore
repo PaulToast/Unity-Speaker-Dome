@@ -58,8 +58,7 @@ sysinfo.txt
 # Log-files
 fmod.log
 fmod_editor.log
-Logs/shadercompiler-AssetImportWorker0.log
-Logs/shadercompiler-UnityShaderCompiler.exe*.log
+Logs/
 
 # FMOD 1.10.x (Legacy)
 /Assets/FMODAssets/*
